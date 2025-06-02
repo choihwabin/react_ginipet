@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 내비게이션 서식 */
+
+.nav{
+  width: 100%; height: 100%;
+  background: #000;
+  color:#fff;
+  position: fixed;
+  top: 0px; left: -100%;
+  z-index: 100000;
+  transition: 0.3s;
+}
+.nav .close_btn{
+  border:none;
+  background: none;
+  margin-top: 20px;
+  width: 25%;
+  cursor: pointer;
+}
+.nav nav .gnb{
+  width: 85%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 50px;
+}
+.nav nav .gnb li{
+  border-bottom: 1px solid #fff;
+  transition: 0.3s;
+  text-indent: 10px;
+}
+.nav nav .gnb li:hover{background: #4e4e4e;}
+.nav nav .gnb li a{color: #fff;}
+
+.nav .lnb{
+  width: 80%; height: 100px;
+  margin: 50px auto 0px auto;
+  background: #333;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  text-align: center;
+}
+.nav .lnb a{
+  border: 1px solid #000;
+  color:#fff;
+  padding-top: 15px;
+  transition: 0.3s;
+}
+.nav .lnb a:hover{background: #4e4e4e;}

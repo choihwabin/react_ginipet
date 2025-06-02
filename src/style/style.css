@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 로그인 서식 */
+
+.login{
+  width: 100%;
+  height: 100vh;
+}
+
+.login h2{
+  font-size: 1.5rem;
+  text-align: center;
+  padding:30px 0px;
+  background: #ddd;
+  font-weight: bold;
+}
+.login p{
+  padding: 20px 0px;
+}
+
+.nonlabel{display: none;}
+.login form{width: 90%; margin: 0 auto;}
+.login p:first-child label{margin-right: 20px;}
+.login form input[type='text'],.login form input[type='password']{
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.login form #id_save{
+  width: 15px; height: 15px;
+  margin-right: 5px;
+}
+.login input[type='submit']{
+  width:100%;
+  padding: 10px 0px;
+  background: #ed1b24;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.login .login_find{
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  width: 85%;
+  margin-bottom: 10px;
+  margin: 10px auto 20px auto;
+}
+.login h3{
+  text-align: center;
+  font-size:1.125rem;
+  font-weight: bold;
+  color: #000;
+}
+.login .login_txt{text-align: center;}
+.login .join_box{
+  text-align: center;
+  font-size: 1.125rem;
+  color: #333;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 회원가입 서식 */
+.join{
+  width: 100%;
+  height: 100vh;
+}
+
+.join h2{
+  font-size: 1.5rem;
+  text-align: center;
+  padding:30px 0px;
+  background: #ddd;
+  font-weight: bold;
+}
+.join form {width: 90%; margin: 0 auto;}
+.join input[type='text'],.join input[type='password'], .join input[type='tel'], .join input[type='email']{
+  width: 100%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.join input[type='checkbox']{margin: 10px 0px 20px 0px;}
+.join input[type='submit']{
+  width:100%;
+  padding: 10px 0px;
+  background: #ed1b24;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+}

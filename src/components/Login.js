@@ -21,7 +21,7 @@ function Login(props) {
     e.preventDefault();
 
     try{ //로그인 성공시
-      const res = await axios.post('https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/login', form);
+      const res = await axios.post('https://port-0-backend2025-mbeeobco2e6ef2af.sel4.cloudtype.app/login3', form);
 
       //사용자 인증이 끝나면 '토큰' 생성
       localStorage.setItem('token', res.data.token);

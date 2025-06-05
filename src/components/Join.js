@@ -53,7 +53,6 @@ const Join=()=> {
         tel:'',
         email:''
       });
-      alert('회원가입이 완료되었습니다.');
       navigate('/login');
     }catch(err){//전송 실패시 에러 출력
       setError('회원가입 실패 : 아이디가 이미 존재하거나 서버오류입니다.');
